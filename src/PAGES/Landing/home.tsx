@@ -1,6 +1,7 @@
-import { HeroSection } from "./components";
+import { HeroSection, ServiceSection } from "./components";
 import { Navbar } from "./components/navbar";
 import { HowItWorksSection } from "./components/work";
+import { Footer } from "./components/footer";
 
 export function Home() {
   return (
@@ -8,6 +9,8 @@ export function Home() {
       <Navbar />
       <HeroSection />
       <HowItWorksSection />
+      <ServiceSection />
+      <Footer />
     </>
   );
 }
